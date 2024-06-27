@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+</head>
+<body class="bg-gray-800">
+    <section>
+        <div class="flex justify-center pb-10 pt-10 ">
+            <h3 class="md:text-5xl text-4xl font-bold text-amber-700">Best pictures ever</h3>
+        </div>
+        <div class="gallery-wrap md:flex items-center justify-center md:mx-[10%] my-auto pb-32">
+                <img class="w-20 h-auto  m-7 md:rotate-180 md:flex  hidden" src="./next.png" alt="" id="backbtn">
+        <div class="gallery md:w-[900px] md:flex overflow-x-scroll ">
+            <div class="w-full grid  md:grid-cols-3 gap-5 p-3 flex-none">
+                <span><img class="md:w-full  grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-1.png" alt=""></span>
+                <span><img class="md:w-full  grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-2.png" alt=""></span>
+                <span><img class="md:w-full  grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-3.png" alt=""></span>
+            </div>
+            <div class="w-full grid md:grid-cols-3  gap-5 p-3 flex-none">
+                <span><img class="md:w-full   grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-4.png" alt=""></span>
+                <span><img class="md:w-full  grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-5.png" alt=""></span>
+                <span><img class="md:w-full  grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-6.png" alt=""></span>
+            </div>
+            <div class="w-full grid md:grid-cols-3 gap-5 p-3 flex-none">
+                <span><img class="md:w-full  grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-1.png" alt=""></span>
+                <span><img class="md:w-full  grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-2.png" alt=""></span>
+                <span><img class="md:w-full  grayscale  hover:grayscale-0 hover:cursor-pointer hover:scale-110" src="./image-3.png" alt=""></span>
+            </div>
+        </div>
+        <img class="w-20  h-auto m-7 hidden md:flex" src="./next.png" alt="" id="nextbtn">
+    </div>
+    </section>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

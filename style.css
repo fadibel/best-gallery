@@ -1,0 +1,7 @@
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery div img{
+    transition: transform 0.5s;
+}
